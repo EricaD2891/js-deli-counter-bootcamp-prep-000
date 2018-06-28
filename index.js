@@ -1,16 +1,8 @@
-
 function takeANumber(array, name){
   array.push(name)  
   return (`Welcome, ${name}. You are number ${array.length} in line.`)
 
 }
-var line = ["Steven", "Blake", "Avi"]
-function takeANumber(array, name){
-  array.push(name)  
-  return (`Welcome, ${name}. You are number ${array.length} in line.`)
-
-}
-var line = ["Steven", "Blake", "Avi"]
 
 function nowServing(line){
  if(line.length===0) {
@@ -22,8 +14,6 @@ function nowServing(line){
   
 }
 
-
-     
   function currentLine(line) {
     
     if (line.length===0){
@@ -34,6 +24,5 @@ function nowServing(line){
     }
     
     return (`The line is currently: ${deliline.join(", ")}`)
-    
     
     }
